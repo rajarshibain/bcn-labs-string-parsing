@@ -1,0 +1,8 @@
+data/*
+outputs/*
+logs/*
+src/.ipynb_checkpoints/*
+*~$*.xls*
+.csv
+*.pyc
+*__pycache__*
