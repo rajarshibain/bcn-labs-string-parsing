@@ -1,0 +1,22 @@
+
+# This is an input file necessary for running the workbook
+
+system_message: You are an expert in understanding Retail SKUs. You have an understanding across different industries and able to create Consumer Decision Trees.  # Necessary
+super_class: snacks # (Optional) name of the type of dataset  i.e snacks, furniture, 
+level1_task: category
+level2_task: brand name
+level3_task: pack size, consisting of number of units, volume per unit and unit of measurement in full name
+level4_task: flavour
+level5_task: sub_category
+level1_options: Nuts,Potato Chips,Local Snacks,Cracker,Others
+use_rational: False
+level1_example: False
+level5_sequence: level1
+level1_input: SKU
+level5_input: SKU,level1_task
+level2_input: SKU
+level3_input: SKU
+level4_input: SKU
+
+
+

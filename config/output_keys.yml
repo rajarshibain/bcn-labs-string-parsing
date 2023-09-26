@@ -1,0 +1,3 @@
+level1: part_of_chicken,part_of_chicken_confidence_score
+level2: type_chicken_piece,chicken_piece_confidence_score
+level3: raising_method_of_chicken,raising_method_of_chicken_confidence_score

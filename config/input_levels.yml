@@ -1,9 +1,22 @@
-system_content_part1 : You are a Retail expert with expertise in undertanding SKUs for 
-super_category : snacks 
-number_of_levels : 5
-level1 : Category of snack
-level2 : Brand Name or Company name
-level3 : Pack size
-level4 : Flavour
-level5 : Type
+
+# This is an input file necessary for running the workbook
+
+system_message: You are an expert in understanding Retail SKUs. You have an understanding across different industries and able to create Consumer Decision Trees.  # Necessary
+super_class: Bread  # (Optional) name of the type of dataset  i.e snacks, furniture, 
+level1_task: preperation, type, brand name
+# level2_task: category
+# level3_task: sub category
+# level4_task: flavour
+# level5_task: sub_category
+# level2_options: Nuts,Potato Chips,Local Snacks,Cracker,Others
+# use_rational: True
+# level1_example: False
+# level3_sequence: level2
+level1_input: SKU
+# level2_input: SKU
+# level3_input: SKU,level2_task
+# level4_input: SKU
+# level5_input: SKU,level1_task
+
+
 

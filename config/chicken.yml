@@ -1,0 +1,17 @@
+
+# This is an input file necessary for running the workbook
+
+system_message: You are an expert in understanding Retail SKUs. You have an understanding across different industries and able to create Consumer Decision Trees.  # Necessary
+super_class: Chicken pieces   # (Optional) name of the type of dataset  i.e snacks, furniture, 
+level1_task: part of chicken 
+level2_task: type of chicken piece
+level2_options: in-bone,boneless,split,ground
+level3_options: conventional,open nature,organic
+level3_task: raising method of the chicken
+not_applicable: True,True,False
+level1_example: False
+level1_input: SKU
+level2_input: SKU
+level3_input: SKU
+
+
